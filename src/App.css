@@ -11,38 +11,29 @@ h1 {
   font-size: 40px;
   color: white;
 }
-.title {
+header {
   margin-top: 170px;
   align-items: center;
+  justify-content: center;
   height: 100px;
   text-align: center;
   background-color: #333333;
 }
-.border-red {
-  border: 10px solid #e30413;
-  width: 300px;
-  height: 300px;
+.red {
+  border-color: #e30413;
 }
 
-.border-green {
-  border: 10px solid #3ea535;
-  width: 300px;
-  height: 300px;
+.green {
+  border-color: #3ea535;
 }
-.border-yellow {
-  border: 10px solid #ffee00;
-  width: 300px;
-  height: 300px;
+.yellow {
+  border-color: #ffee00;
 }
-.border-blue {
-  border: 10px solid #039fe3;
-  width: 300px;
-  height: 300px;
+.blue {
+  border-color: #039fe3;
 }
-.border-pink {
-  border: 10px solid #f8c5af;
-  width: 300px;
-  height: 300px;
+.pink {
+  border-color: #f8c5af;
 }
 h2 {
   padding: 15px;
@@ -62,15 +53,17 @@ p {
   box-sizing: border-box;
 }
 .jobs > div {
-  width: calc((100% - 50px) / 3);
-}
-
-.jobs div {
+  border-style: solid;
+  border-width: 10px;
+  height: 300px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: calc((100% - 50px) / 3);
 }
-footer h3 {
+
+footer {
   justify-content: center;
   display: flex;
   align-items: center;
